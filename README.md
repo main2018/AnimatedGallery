@@ -1,4 +1,4 @@
-# SimonAKing-Gallery
+# main2018-Gallery
 
 [中文版说明](README.zh_CN.md)
 
@@ -8,7 +8,7 @@
 
 ![preview](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemVnOXBjZ2ZlNzJvY3dubGMxczdid2ZsNDh5bzR1eWszemxnd3Q3cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MCKs2Xv3BZOW0e6AzC/giphy.gif)
 
-[Online browsing](http://simonaking.com/gallery)
+[Online browsing](http://main2018.com/gallery)
 
 Do you want to install such a cool gallery for your website?
 
@@ -25,7 +25,7 @@ Let's start now!
 ## Installation
 
 ```sh
-git clone https://github.com/SimonAKing/Gallery.git
+git clone https://github.com/main2018/Gallery.git
 cd Gallery
 npm install
 npm run dev

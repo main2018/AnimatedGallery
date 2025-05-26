@@ -1,11 +1,11 @@
 {
   "name": "animated-gallery",
-  "author": "SimonAKing <hi@simonaking.com>",
-  "repository": "https://github.com/SimonAKing/AnimatedGallery",
+  "author": "main2018 <hi@main2018.com>",
+  "repository": "https://github.com/main2018/AnimatedGallery",
   "version": "1.0.0",
   "private": true,
   "config": {
-    "cdn": "https://cdn.jsdelivr.net/gh/SimonAKing/AnimatedGallery/photos/"
+    "cdn": "https://cdn.jsdelivr.net/gh/main2018/AnimatedGallery/photos/"
   },
   "scripts": {
     "photos": "node scripts/update.js",

@@ -1,4 +1,4 @@
-# SimonAKing-相册
+# main2018-相册
 
 [English Version](<README.md>)
 
@@ -8,7 +8,7 @@
 
 ![preview](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemVnOXBjZ2ZlNzJvY3dubGMxczdid2ZsNDh5bzR1eWszemxnd3Q3cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MCKs2Xv3BZOW0e6AzC/giphy.gif)
 
-[在线浏览](http://simonaking.com/gallery)
+[在线浏览](http://main2018.com/gallery)
 
 你想为网站装上相册吗?
 
@@ -25,7 +25,7 @@
 ## 安装
 
 ```sh
-git clone https://github.com/SimonAKing/Gallery.git
+git clone https://github.com/main2018/Gallery.git
 cd Gallery
 npm install
 npm run dev
