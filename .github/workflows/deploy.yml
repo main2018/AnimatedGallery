@@ -18,13 +18,9 @@ jobs:
         with:
           node-version: 18
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+      - name: 📦 Install dependencies
+        run: npm install
+        # run: npm ci
 
       - name: 🏗 Build project
         run: npm run build
