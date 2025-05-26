@@ -1,0 +1,33 @@
+name: Build and Push to Another Repo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout current repo
+        uses: actions/checkout@v3
+
+      - name: 🧱 Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: 📦 Install dependencies
+        run: npm ci
+
+      - name: 🏗 Build project
+        run: npm run build
+
+      - name: 🚀 Push to external repo
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          external_repository: main2018/gallery
+          publish_dir: ./dist
+          personal_token: ${{ secrets.PUSH_TOKEN }}
+          publish_branch: main  # 或 gh-pages / release
